@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  position: fixed;
+  width: 100%;
+}
+.navbar{
+  font-weight: bold;
+  font-size: 25px;
+}
+.topbar
+{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(41, 41, 43);
+  width: 100%;
+}
+
+li {
+  float: left;
+  position: relative;
+  left: 20px;
+} 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 34px 16px;
+  text-decoration: none;
+  width:100%;
+  float: left;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.logout {
+  float: right;
+  position: relative;
+  right: 30px;
+}
+.vertical-menu {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+  float: left;
+  list-style-type: none;
+  width: 18%;
+  background-color: #ececec;
+  position: fixed;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.vertical-menu a {
+  background-color: #ececec;
+  color: black;
+  display: block;
+  padding: 40px;
+  text-decoration: none;
+  font-size: 95%;
+  overflow: hidden;
+}
+
+.vertical-menu a:hover {
+  background-color: rgb(41, 41, 43);
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.vertical-menu a.active {
+  background-color: rgb(184, 184, 184);
+  color: black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+b{
+  position: relative;
+  left: 10px;
+}

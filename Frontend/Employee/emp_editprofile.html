@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<link rel="stylesheet" href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\navbar.css">
+<link rel="stylesheet" href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\details.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="navbar_profile.css">
+<link rel="stylesheet" href="profile_margin_details.css">
+<link rel="stylesheet" href="edit_profile.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<body>
+  <ul class="navbar">
+    <li><a href="emp_profile.html">Dashboard</a></li>
+    <div class="logout">
+    <li><a href="emp_login.html">Logout</a></li>
+    </div>
+  </ul>
+  <br>
+  <div class="vertical-menu">
+    <a href="emp_profile.html" class="active"><i class="fa-solid fa-circle-info"></i><b>Employee Profile</b></a>
+    <a href="emp_levreq.html"><i class="fa-solid fa-clipboard"></i><b>Employee Leave Request Form </b></a>
+    <a href="emp_listlev.html"><i class="fa-solid fa-list"></i><b>List of Leave</b></a>
+  </div>
+<!----
+  <img style="margin-left:0px;" src="upload2/avatar.png" width="150" height="150" />
+  <tr><td><input type="file" name="image" ></td></tr>
+  <tr><td><input name="Submit" type="submit" value="Upload image"></td></tr>
+  </form>
+  <fieldset>
+-->
+  <div class="details">
+  <h2>Edit Details</h2>
+  </div>  
+  <br>
+  <div class="pics">
+      <img src="avatar.webp"/>
+    <div class="butn">
+      <a href=""><button type="button" class="btn btn-outline-primary">Edit Profile</button></a>
+    </div>
+  <br>
+  </div>
+ 
+  <div class="leftbox"><p>Full Name :</p></div>  
+ <input class="rightbox" name="fname">  
+  <div class="leftbox"><p>Email:</p></div>
+ <input class="rightbox" name="email">
+  <div class="leftbox"><p>Phone</p></div>
+ <input class="rightbox" name="pnum">
+  <div class="leftbox"><p>Address :</p></div>
+ <input class="rightbox" name="addr">
+  <div class="leftbox"><p>Age:</p></div>
+ <input class="rightbox" name="age">
+  <div class="leftbox"><p>Date of Birth:</p></div>
+  <input class="rightbox" name="dob" >
+  <div class="leftbox"><p>Project:</p></div>
+ <input class="rightbox" name="pjnme">
+  <div class="acc_ed"><a href="emp_profile.html"><button type="button" class="btn btn-primary">Accept Changes</button></a></div>
+  <div class="dec_ed"><button type="button" class="btn btn-primary">Discard Changes</button></div>
+</body>
+</html>

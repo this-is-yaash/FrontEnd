@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<title>Attendance</title>
+<link rel="stylesheet" href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\navbar.css">
+<link rel="stylesheet" href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\details.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<body>
+  <ul class="navbar">
+    <li><a href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\emp_dashboard.html">Dashboard</a></li>
+    <div class="logout">
+    <li><a href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\index_login.html">Logout</a></li>
+    </div>
+  </ul>
+  <br>
+  <div class="vertical-menu">
+    <a href="emp_dashboard.html"><i class="fa-solid fa-address-card"></i><b>Employee Details</b></a>
+    <a href="emp_attendance.html"class="active"><i class="fa-solid fa-circle-check"></i><b>Employee Attendance</b></a>
+    <a href="emp_request.html"><i class="fa-sharp fa-solid fa-list-check"></i><b>Leave Request</b></a>
+</div>
+<h1>Employee Management System</h1>
+
+<input type="date"
+       id="datePicker" name="datePicker"
+       value="2021-03-22"
+       min="2001-01-01" max="2099-12-31">
+<input type="date"
+      id="datePicker2" name="datePicker"
+      value="2021-03-22"
+      min="2001-01-01" max="2099-12-31">
+      <table class="center">
+  <tr>
+    <th>Attendance ID <i class="fa-solid fa-sort"></i></th>
+    <th>Employee Name<i class="fa-solid fa-sort"></i></th>
+    <th>Designation <i class="fa-solid fa-sort"></i></th>
+    <th>Date</th>
+    <th>In Time <i class="fa-solid fa-sort"></i></th>
+    <th>Out Time <i class="fa-solid fa-sort"></i></th>
+    <th>Status <i class="fa-solid fa-sort"></i></th>
+  </tr>
+  <tr>
+    <td>Att00001</td>
+    <td>John Smith</td>
+    <td>Android Developer</td>
+    <td>05/04/2022</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>
+      <span class="absent">Absent</span>
+    </td>    
+  </tr>
+  <tr>
+    <td>Att00002</td>
+    <td>Will Smith</td>
+    <td>iOS Developer</td>
+    <td>05/05/2022</td>
+    <td>N/A</td>
+    <td>N/A</td>
+   <td>
+      <span class="absent">Absent</span>
+    </td> 
+  <tr>
+    <td>Att00003</td>
+    <td>Sarah Connor</td>
+    <td>Tester</td>
+    <td> 04/10/2022</td>
+    <td>9.00</td>
+    <td>18.00</td>
+    <td>
+      <span class="present">Present</span>
+    </td> 
+  </tr>
+  <tr>
+    <td>Att00004</td>
+    <td>John Harvey</td>
+    <td>Web Developer</td>
+    <td> 01/28/2022</td>
+    <td>N/A</td>
+    <td>N/A</td>
+   <td>
+      <span class="absent">Absent</span>
+    </td>   
+   </tr>
+  <tr>
+    <td>Att00005</td>
+    <td>Mark Luther</td>
+    <td>Web Developer</td>
+    <td>  09/22/2022</td>
+    <td>9.00</td>
+    <td>18.00</td>
+   <td>
+      <span class="present">Present</span>
+    </td>  </tr>
+  <tr>
+    <td>Att00006</td>
+    <td>Hannah</td>
+    <td>Debugger</td>
+    <td>08/12/2022</td>
+    <td>9.00</td>
+    <td>18.00</td>
+   <td>
+      <span class="present">Present</span>
+    </td>  </tr>
+  <tr>
+    <td>Att00007</td>
+    <td>Ben Johnson</td>
+    <td>Web Designer</td>
+    <td>12/30/2022</td>
+    <td>9.00</td>
+    <td>18.00</td>
+   <td>
+      <span class="present">Present</span>
+    </td>  </tr>
+  </table>
+  </body>
+</html>

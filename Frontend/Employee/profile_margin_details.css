@@ -1,0 +1,105 @@
+form h1 {
+     color: white;
+    text-align: center;
+    }
+form {
+    font-size: 11px;
+    color: white;
+    }
+input {
+    display: block;
+    clear: both;
+    }
+fieldset {
+    margin: 1em 100;
+    }   
+label input {
+    display: block;
+    }
+.details{
+    margin-left:200px;
+    padding:1px 16px;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.rights{
+    width: 350px;
+    margin-left:670px;
+    text-align: left;
+    position: relative;
+    bottom: 52px;
+    padding:10px 20px;
+    width: 425px;
+    background-color: rgb(226, 238, 248);
+    border: 0px;
+    border-radius: 6px;
+}
+.lefts{
+    width: 350px;
+    margin: 0;
+    margin-left:525px;
+    padding:1px 16px;
+}
+/*for for recent project title in profile*/
+.lefts_head{
+    width: 350px;
+    margin: 0;
+    margin-left:523px;
+    padding:1px 16px;
+    position: relative;
+    bottom: 25px;
+    font-weight: bold;
+}
+/*for reason in leave form*/
+.lefts1{
+    width: 350px;
+    margin: 0;
+    margin-left:525px;
+    padding:1px 16px;
+}
+.pics{
+    float:right;
+    position: relative;
+    left: 200px;
+    border-radius: 8px;
+}
+img{
+    width: 50%;
+}
+
+.butn{
+    position: fixed;
+    right:557px;bottom: 382px;
+}
+.rej {
+    background-color: red;
+    padding: 3px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 1px 1px 4px black;
+}
+.apr {
+    background-color:green;
+    padding: 3px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 1px 1px 4px black;
+}
+.rightbox {
+    background-color: rgb(226, 238, 248);
+    margin-bottom: 25px;
+    position: relative;
+    bottom: 354px;
+    border-radius: 6px;
+    height: 40px;
+}
+.leftbox{
+    margin-left:525px;
+    margin-bottom: 40px; 
+}
+.reasbox{
+    bottom: 50px;
+    height: 90px;
+    background-color: rgb(226, 238, 248);
+
+}

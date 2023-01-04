@@ -1,0 +1,38 @@
+input{
+    margin-left:670px;
+    float:right;
+    position: relative;
+    bottom: 340px;
+    right: 789px;
+    padding:1px 16px;
+    width: 425px;
+    height: 40px;
+    border: 2px ;
+}
+.lefts{
+    width: 350px;
+    margin: 0;
+    margin-left:525px;
+    padding:1px 16px;
+}
+.acc{
+    position: relative;
+    top: 60px;
+    left: 280px;
+}
+.dec{
+    position: relative;
+    top:22.5px;
+    left: 830px;
+}
+.acc_ed{
+    position: relative;
+    top: 10px;
+    left: 706px;
+}
+.dec_ed{
+    position: relative;
+    bottom:27px;
+    left: 849px;
+}
+

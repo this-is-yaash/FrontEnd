@@ -1,0 +1,27 @@
+.lvtype{
+    width: 350px;
+    margin: 0;
+    margin-left:670px;
+    position: relative;
+    bottom: 52px;
+    padding:1px 16px;
+    width: 425px;
+}
+select{
+    float: left;
+    width: 425px;
+    height: 43px;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 79px;
+    left: 705px;
+    border: 0;
+    background-color: rgb(226, 238, 248);
+  }
+select option{
+    background-color: white;
+}
+.lefts-reason {
+    height: 90px;
+}
