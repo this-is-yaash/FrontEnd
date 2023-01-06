@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\details.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -25,16 +28,16 @@
       <a href="emp_request.html"class="active"><i class="fa-sharp fa-solid fa-list-check"></i><b>Leave Request</b></a>
 </div>
 <h1>Employee Management System</h1>
-<table class="center">
-  <tr>
-    <th>Employee Name <i class="fa-solid fa-sort"></i></th>
-    <th>From Date <i class="fa-solid fa-sort"></i></th>
-    <th>To Date <i class="fa-solid fa-sort"></i></th>
-    <th>No of Days <i class="fa-solid fa-sort"></i></th>
+<table class="center" id="table" style="width: 50%;">
+  <thead>
+    <th>Employee Name</i></th>
+    <th>From Date</i></th>
+    <th>To Date</i></th>
+    <th>No of Days</i></th>
     <th>Reason </th>
-    <th>Status <i class="fa-solid fa-sort"></i></th>
+    <th>Status</i></th>
     <th>Action</th>
-  </tr>
+  </thead>
   <tr>
     <td>John Smith</td>
     <td>5 June 2022</td>
@@ -106,6 +109,16 @@
       <button type="button2" class="btn btn-danger">Declined</button>
     </td>
   </table>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+  <script>
+    $(document).ready(function () {
+        $('#table').DataTable();
+      });
+  </script>
+
   </body>
   
 </html>

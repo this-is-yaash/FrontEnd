@@ -70,12 +70,7 @@ table {
   border: 0px;
   background-color: #dfdfdf;
   color: rgb(53, 53, 53);
-}
-.center{
-  position: relative;
-  bottom: 25px;
-  
-}
+} 
 .absent {
   color: white;
   background-color: rgb(224, 0, 0);
