@@ -46,15 +46,9 @@ li a {
   right: 30px;
 }
 .vertical-menu {
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  overflow: hidden;
-  float: left;
-  list-style-type: none;
-  width: 18%;
+  border-top-right-radius: 15px;/*outer radius*/
+  border-bottom-right-radius: 15px;/*outer radius*/
   background-color: #ececec;
-  position: fixed;
-  height: 100%;
   font-weight: bold;
   font-size: 20px;
   font-family: 'Trebuchet MS', sans-serif;
@@ -82,8 +76,4 @@ li a {
   color: black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-}
-b{
-  position: relative;
-  left: 10px;
 }
