@@ -3,7 +3,8 @@
 <head>
 </head>
 <title>Attendance</title>
-<link rel="stylesheet" href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\details.css">
+
+<link rel="stylesheet" href="details.css">
 <link rel="stylesheet" href="navibar.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
@@ -13,13 +14,14 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 <body>
   <div class="col-12">
     <div class="row">
       <ul id="navbar">
           <li><a href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\emp_dashboard.html">Dashboard</a></li>
         <div class="logout">
-          <li><a href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\index_login.html">Logout</a></li>
+          <li><a href="C:\Users\ASUS\Desktop\Employee Management System\Frontend\Admin\admin_login.html">Logout</a></li>
         </div>
       </ul>
     </div>
@@ -36,11 +38,11 @@
   <div class="col-10">
     <h1>Employee Details</h1>
       <table id="table" class="center" style="width: 100%">
-        <thead class="rads">
+        <thead>
           <th>Employee Name</i></th>
           <th>Designation</i></th>
           <th>Phone Number</i></th>
-          <th>Salary></i></th>
+          <th>Salary </i></th>
           <th>Age</i></th>
           <th>Date of Birth</i></th>
         </thead >
@@ -116,6 +118,7 @@
       <script>
         $(document).ready(function () {
             $('#table').DataTable();
+
           });
       </script>
   </div>

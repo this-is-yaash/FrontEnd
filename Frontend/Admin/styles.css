@@ -91,3 +91,7 @@ button{
     background-color: rgb(226, 239, 255);
 }
 
+table.dataTable {
+    background: red;
+}
+
