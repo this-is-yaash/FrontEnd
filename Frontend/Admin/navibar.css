@@ -1,3 +1,4 @@
+/* Side bar*/
 .vertical-menu {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -33,8 +34,8 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
-ul {
+/*top bar*/
+#navbar {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
@@ -47,17 +48,21 @@ ul {
     position: relative;
     left: 20px;
 } 
-  li a {
+/*Dashboard and logout*/
+
+li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 34px 16px;
+    padding: 32px 16px;
     text-decoration: none;
     width:100%;
-    float: left;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
-  .logout {
+.logout {
+    font-family: 'Trebuchet MS', sans-serif;
     float: right;
     position: relative;
-    right: 30px;
+    right: 30px;    
 }

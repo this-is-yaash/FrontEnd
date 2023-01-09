@@ -79,11 +79,6 @@ span{
     font-size: 20px;
 }
 /*Responsive design*/
-.row{
-    text-align: left;
-    position: relative;
-    top: 250px;
-}
 button{
     width: 100%;
 }
